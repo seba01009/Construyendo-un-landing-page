@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.seccion-principal{
+    display: flex;
+    height: 450px;
+    position: relative;
+}
+.seccion-principal img{
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    top: 2%;
+    left: 3%;
+}
+.seccion-principal h1{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-family: 'Avenir', sans-serif; 
+    color: rgb(0, 255, 0);
+    font-size: xx-large;
+    background-color: rgb(18, 1, 253);
+    padding: 5px;
+}
+.seccion-principal h2{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-family: 'Avenir', sans-serif; 
+    color: rgb(0, 255, 0);
+    font-size: xx-large;
+    background-color: rgb(18, 1, 253);
+    padding: 5px;
+}
+.producto-1 {
+    position: relative;
+    display: flex;
+}
+.producto-1 img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+}
+h3 {
+    position: absolute;
+    font-family: 'Avenir', sans-serif;
+    color: rgb(0, 255, 0);
+    font-size: large;
+    top: 70px;
+    left: 700px;
+}
+.producto-2 {
+    position: relative;
+    display: flex;
+    margin-top: 250px;
+}
+.producto-2 img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+}
+.producto-3 {
+    position: relative;
+    display: flex;
+    margin-top: 250px;
+}
+.producto-3 img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+}
